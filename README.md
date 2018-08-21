@@ -1,6 +1,6 @@
 # Budget Tracker Redux Middleware lab 33
 
-PR: 
+PR: https://github.com/Lennerblom/33-redux-middleware/pull/1
 ---
    This Budget app was created using React and Redux with Redux middleware.  You can set a budget category and add expenses to that category.  Each form takes a name and number input.  
    

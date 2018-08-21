@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 
 export default class ExpenseForm extends Component {
     constructor(props){
@@ -16,7 +16,7 @@ export default class ExpenseForm extends Component {
     onSubmit = e => {
         e.preventDefault();
         this.props.onComplete(this.state);
-        //this.setState({ ...this.state, categoryID: this.props.categoryName}); //FIXME:{categoryID: props.category.name} add this value in somehow
+        //this.setState({ ...this.state, categoryID: this.props.categoryName});
         console.log('Expense form', this.state);
       };
     
