@@ -6,14 +6,14 @@ describe('actions', () => {
     const category = {
       timestamp: Date.now(),
       name: 'test',
-      budget: 0,
+      budget: 1,
       view: 'false',
     };
 
     const actuaAction = actions.catCreate({
       timestamp: Date.now(),
       name: 'test',
-      budget: 0,
+      budget: 1,
       view: 'false',
     });
 

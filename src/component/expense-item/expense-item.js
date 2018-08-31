@@ -26,13 +26,13 @@ onDelete = () => {
         <Fragment>
           <div onDoubleClick={this.updateView}>
             <li>
-              <h3>{this.props.expense.name}</h3>
+              <h3> {this.props.expense.name}</h3>
             </li>
             <li>
-              <h3>${this.props.expense.price}.00</h3>
+              <h3> ${this.props.expense.price}.00</h3>
             </li>
             <button onClick={this.onDelete}>Delete</button>
-      {this.state.view && <div><ExpenseForm onComplete={this.expenseUpdate} expense={this.props.expense} onClick={this.props.returnView} buttonText = 'edit expense'/><button onClick={this.returnView}>cancel update</button></div>}
+      {this.state.view && <div><ExpenseForm onComplete={this.expenseUpdate} expense={this.props.expense} onClick={this.props.returnView} buttonText = 'edit expense'/><button onClick={this.returnView}>close update</button></div>}
           </div>
           
         </Fragment>

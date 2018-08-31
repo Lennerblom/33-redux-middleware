@@ -35,7 +35,6 @@ export default class CategoryItem extends Component {
           <div onDoubleClick={this.updateView}>
             <li>
               <h3>{this.props.category.name}</h3>
-              {/* <h4>{this.props.expense.name}</h4> */}
             </li>
             <li>
               <h3>${this.props.category.budget}.00</h3>
